@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T05:12:36.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" version="14.4.8" etag="S7V197DTRI7tvbV2RiUV" type="github"><diagram id="B_sAz-h0ECRe_rY8dOse">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-19T05:26:14.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="b_syFyje5LJtQEJxpS4G" version="14.4.8" type="github">
+  <diagram id="B_sAz-h0ECRe_rY8dOse" name="Page-1">
+    <mxGraphModel dx="763" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-30" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="760" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-1" value="" style="html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon;prIcon=pod" vertex="1" parent="1">
+          <mxGeometry x="20" y="505" width="50" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="mdYU3swDK-hZ_P9jBkHe-3" target="mdYU3swDK-hZ_P9jBkHe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-3" value="init-container" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-4" value="cointainer(app)" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-5" value="Pod" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="25" y="565" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-6" value="Volume" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/logotypes/32/github-128.png" vertex="1" parent="1">
+          <mxGeometry x="141" y="80" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-12" value="Volume&lt;br&gt;downawrdAPI" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="590" y="320" width="80" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-13" value="① 振る舞いファイルの取得" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=22.5;entryPerimeter=0;" edge="1" parent="1" source="mdYU3swDK-hZ_P9jBkHe-3" target="mdYU3swDK-hZ_P9jBkHe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-16" value="② ファイルの格納" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-17" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=22.5;entryPerimeter=0;" edge="1" parent="1" source="mdYU3swDK-hZ_P9jBkHe-4" target="mdYU3swDK-hZ_P9jBkHe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="278.5" as="sourcePoint" />
+            <mxPoint x="330" y="352.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-18" value="③ マウント" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="280" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-19" value="" style="endArrow=classic;html=1;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" target="mdYU3swDK-hZ_P9jBkHe-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="352.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-20" value="③ マウント" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-21" value="/etc/podinfo/annotaions&lt;br&gt;/etc/podinfo/labels" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="650" y="292" width="140" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-22" value="④ annotationsやlabelによって振る舞いを変更" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-24" value="sidecar(git-syncなど)&lt;br&gt;振る舞いファイル更新" style="outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.container_1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-25" value="" style="endArrow=classic;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="mdYU3swDK-hZ_P9jBkHe-24" target="mdYU3swDK-hZ_P9jBkHe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="285.22727272727275" as="sourcePoint" />
+            <mxPoint x="410" y="352.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-27" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mdYU3swDK-hZ_P9jBkHe-24" target="mdYU3swDK-hZ_P9jBkHe-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="450" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-28" value="定期的なチェック" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-29" value="振る舞いファイルの更新&lt;br&gt;(変更時のみ)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="370" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mdYU3swDK-hZ_P9jBkHe-31" value="GitHubなど" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="99" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

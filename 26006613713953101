@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2021-04-09T01:40:05.388Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" version="14.4.9" etag="7KlBfR6ydX7m3tekPMZX" type="github"><diagram id="utNZ83yGN-XjiAfCaRKz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-09T01:46:01.516Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="THg-AnJz8Mw2RkRKraL2" version="14.4.9" type="github">
+  <diagram id="utNZ83yGN-XjiAfCaRKz" name="Page-1">
+    <mxGraphModel dx="427" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="784ctkWIpVD0X2UjKTsc-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="784ctkWIpVD0X2UjKTsc-1" target="784ctkWIpVD0X2UjKTsc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="784ctkWIpVD0X2UjKTsc-1" value="Browser" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.web_browser;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="50" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="784ctkWIpVD0X2UjKTsc-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="784ctkWIpVD0X2UjKTsc-2" target="784ctkWIpVD0X2UjKTsc-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="170" />
+              <mxPoint x="190" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="784ctkWIpVD0X2UjKTsc-2" value="AuthN Server&lt;br&gt;port: 8000" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="130" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="784ctkWIpVD0X2UjKTsc-3" value="Resource Server&lt;br&gt;port: 8001" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="250" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="784ctkWIpVD0X2UjKTsc-5" value="(1) HTTP request&lt;br&gt;(AuthZ req)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="784ctkWIpVD0X2UjKTsc-7" value="(2) HTTP response&lt;br&gt;(AuthZ res)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
